@@ -1,0 +1,106 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+    background: center/cover no-repeat;
+    background: url(../images/picbg2.jpg);
+    background-attachment: fixed;
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.text{
+    width: 50px;
+    height: 600px;
+    /* background: violet; */
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'STXingkai';
+    /* 文本垂直 */
+    writing-mode:vertical-rl; 
+    z-index: 1000;
+
+}
+
+.text1{
+    width: 50px;
+    height: 600px;
+    /* background: violet; */
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'STXingkai';
+    /* 文本垂直 */
+    writing-mode:vertical-rl;  
+    z-index: 1000;
+
+}
+
+.text2{
+  width: 50px;
+  height: 600px;
+  /* background: violet; */
+  position: absolute;
+  top: 300px;
+  left: 1300px;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'STXingkai';
+  /* 文本垂直 */
+  writing-mode:vertical-rl; 
+  z-index: 1000;
+
+}
+
+.text3{
+  width: 50px;
+  height: 600px;
+  /* background: violet; */
+  position: absolute;
+  top: 400px;
+  left: 1400px;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'STXingkai';
+  /* 文本垂直 */
+  writing-mode:vertical-rl;  
+  z-index: 1000;
+}

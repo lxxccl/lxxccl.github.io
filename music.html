@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/music.css" />
+    <title>音乐盒</title>
+</head>
+<body>
+    <!-- 引入jq文件 -->
+     <script typr="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+     <!-- 加入横幅 -->
+
+     <div class="banner">
+        <!-- datasrc,临时的属性值，用来切换背景音乐 -->
+        <ul>
+            <li class="m1" datasrc="mp3/1.mp3" title="不必在乎我是谁 - 李宗盛">
+                <img src="images/1.jpg" width="90" />
+            </li>
+            <li class="m2" datasrc="mp3/2.mp3" title="China-Y - 徐梦圆">
+                <img src="images/2.jpg" width="110" />
+            </li>
+            <li class="m3" datasrc="mp3/3.mp3" title=" 残酷月光 - 林宥嘉">
+                <img src="images/3.jpg" width="130" />
+            </li>
+            <li class="m4" datasrc="mp3/4.mp3" title="嘉宾 - 张远">
+                <img src="images/4.jpg" width="110" />
+            </li>
+            <li class="m5" datasrc="mp3/5.mp3" title="Phoenix - 英雄联盟">
+                <img src="images/5.jpg" width="90" />
+            </li>
+        </ul>
+    </div>
+
+    <div class="music">
+        <div class="m_img">
+            <img src="images/1.jpg" width="90" />
+        </div>
+        <div class="m_text">不必在乎我是谁 - 李宗盛</div>
+        <!-- 按钮 -->
+        <div class="m_btn">
+            <a href="#" class="m_prev" title="上一首"></a>
+            <a href="#" class="m_play" title="播放"></a>
+            <a href="#" class="m_next" title="下一首"></a>
+        </div>
+
+        <div class="m_close"></div>
+        <audio src="mp3/1.mp3" class="m_mp3"></audio>
+    </div>
+
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="js/music.js" ></script>
+</body>
+</html>

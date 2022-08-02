@@ -1,0 +1,247 @@
+.body{
+    background: center/cover no-repeat;
+    background-image: url(../images/bg.jpg);
+    background-attachment: fixed;
+}
+
+.left-about{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255,0);
+    margin:0 auto;
+    background-color: rgba(19, 18, 18, .60);
+
+}
+
+.touxiang{
+    width: 120px;
+    height: 120px;
+    background: aqua;
+    margin: 20px auto;
+	border-radius: 50%;/* 将图片菱角变圆 */
+	cursor: pointer;/* 鼠标变手势 */
+}
+
+.touxiang>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;/* 将图片菱角变圆 */
+}
+
+.xm{
+    display:block;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+    font-family: '楷体';
+
+}
+
+.aboutlianjie{
+    height: 50px;
+    width: 100%;
+    /* background: chartreuse; */
+    float: left;
+    margin-top: 40px;
+    margin-left: 650px; 
+}
+
+.about-icon{
+    width: 100%;
+    height: 33px;
+    /* background: lightcoral; */
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.center{
+    margin-left: 220px;
+    float: left;
+}
+
+.a{
+    display: block;
+    width: 33px;
+    height: 33px;
+    /* background: red; */
+    margin-left: 10px;
+    text-align:center;
+    float: left;
+    line-height: 22px;
+    border-radius: 50%;/* 将图片菱角变圆 */
+}
+
+.qq{
+    background:url(../images/QQ1.png);
+    background-size: contain;
+}
+
+
+.wx{
+    background:url(../images/微信.png);
+    background-size: contain;
+}
+
+.csdn{
+    background:url(../images/csdn1.png);
+    background-size: contain;
+}
+
+.github{
+    background:url(../images/github1.png);
+    background-size: contain;
+}
+
+.email{
+    background:url(../images/邮箱.png);
+    background-size: contain;
+}
+
+/* 图片旋转的动画 keyframes指定动画效果，用的是动画的2D转换*/
+@keyframes img_rotate {
+	from {
+		 transform: rotate(0deg);  /*从0度 */
+	} to {
+		transform: rotate(360deg); /*转到360度*/
+	}
+}
+
+/* 绑定动画到div，同时设置动画执为2s 以及改为infinite无休止的次数,鼠标移上去开始转 */
+.touxiang img:hover {
+	animation: img_rotate 2s infinite linear;
+}
+
+.wx:hover~.wxhideen{
+    display: block;
+}
+
+.qq:hover~.qqhideen{
+    display: block;
+}
+
+.csdn:hover~.csdn1{
+    display: block;
+}
+
+.github:hover~.github1{
+    display: block;
+}
+
+.email:hover~.email1{
+    display: block;
+}
+.wxhideen{
+    position: absolute;
+    width: 123px;
+    height: 145px;
+    left: 620px;
+    top: 240px;
+    /* background:rgb(219, 35, 35);    */
+    opacity: 1; 
+    display: none;
+}
+
+.wxhideen>img{
+    width: 100%;
+    height: 110px;
+    margin-left: 0 auto;
+}
+
+.qqhideen>img{
+    width: 100%;
+    height: 110px;
+    margin-left: 0 auto;
+}
+
+.desc{
+    margin-top: -30px;
+    font-size: 15px;
+    background:white;
+    border-radius: 10%;
+}
+
+.qqhideen{
+    position: absolute;
+    width: 95px;
+    height: 165px;
+    left: 675px;
+    top: 240px;
+    /* background:rgb(219, 35, 35);    */
+    opacity: 1; 
+    display: none;
+}
+
+.github1{
+    position: absolute;
+    width: 123px;
+    height: 145px;
+    left: 725px;
+    top: 265px;
+    /* background:rgb(219, 35, 35);    */
+    opacity: 1; 
+    display: none;
+}
+.csdn1{
+    position: absolute;
+    width: 123px;
+    height: 145px;
+    left: 775px;
+    top: 265px;
+    /* background:rgb(219, 35, 35);    */
+    opacity: 1; 
+    display: none;
+}
+
+.email1{
+    position: absolute;
+    width: 143px;
+    height: 145px;
+    left: 825px;
+    top: 265px;
+    /* background:rgb(219, 35, 35);    */
+    opacity: 0.9; 
+    display: none;
+}
+
+.sizetext{
+    width: 100%;
+    height: 30px;
+    color: rgb(22, 14, 14);
+    font-size: 28px;
+    font-family: '宋体';
+    float: left;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.h5{
+    display: block;
+    width: 100%;
+    height: 30px;
+    float: left;
+    font-family: 'STXingkai';
+    font-size: 23px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    color: white;
+}
+.hr{
+    width: 100%;
+    height: 15px;
+    margin: 7px auto 10px auto;
+    float: left;
+}
+
+.hr>hr{
+    margin:0 auto
+}
+.navsize{
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+}

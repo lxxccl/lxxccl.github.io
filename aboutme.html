@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="semantic/semantic.min.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="semantic/semantic.min.js"></script>
+    <title>关于我</title>
+</head>
+
+<body class="body">
+     <!--导航-->
+     <!-- Semantic UI框架 -->
+  <nav id="nav" class="ui attached segment m-padding-tb-mini m-shadow-small animated fadeInDown">
+    <div class="ui container ">
+        <div class="ui secondary  stackable menu ">
+            <a href="aboutme.html" class="item">
+                <h2 class="ui header item" style="color: #58a3f8">About Me</h2>
+            </a>&nbsp;
+            <a href="index.html" class="item m-item m-mobile-hide "><i class="home icon"></i>首页</a>
+            <a href="timeline.html" class="m-item item m-mobile-hide"><i class="tags icon"></i>时光轴</a>
+            <a href="music.html" class="m-item  item m-mobile-hide"><i class="clock icon"></i>音乐盒</a>
+            <a href="aboutme.html" class="item m-item  m-mobile-hide"><i class="info icon"></i>关于我</a>
+            <a href="picture.html" class=" item   m-item  m-mobile-hide"><i class="linkify icon"></i>照片墙</a>
+            <a href="information.html" class=" item   m-item  m-mobile-hide"><i class="idea icon"></i>个人信息</a>
+            <div class="right m-item item m-mobile-hide">
+                <form name="search" action="/search" method="post">
+                    <div class="ui icon  transparent  input">
+                        <input type="text" value="" name="query" placeholder="Search..." class="text" style="color:#606af5">
+                        <i  class="search link icon  "></i>
+                    </div>
+                </form>
+            </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- 左边个人介绍，包括头像，文字，昵称 -->
+  <div class="left-about">
+      <!-- 头像 -->
+    <div class="touxiang">
+        <img class="tx" src="images/touxiang.jpg" >
+        <p class="xm">含時</p>
+    </div>
+    <!-- 微信、qq、GitHub等二维码和链接 -->
+    <div class="aboutlianjie">
+        <div class="about-icon" >
+            <a href="#" class="wx a"></a>
+            <a href="#" class="qq a"> </a>
+            <a href="https://github.com" target="_blank" class="a github" > </a>
+            <a href="#" target="_blank" class="a csdn"> </a>
+            <a href="#" class="a email" ></a>
+            <div class="wxhideen">
+                <img  src="images/wxpic.jpg" >
+                <div class="desc" align="center">微信</div>
+            </div>
+            <div class="qqhideen">
+                <img  src="images/qqpic.png" >
+            </div>
+            <div class="github1">
+                <div class="desc" align="center">点击跳转至GitHub</div>
+            </div>
+            <div class="csdn1">
+                <div class="desc" align="center">点击跳转至CSDN</div>
+            </div>
+            <div class="email1">
+                <div class="desc" align="center">1714140986qq.com</div>
+            </div>
+        </div>
+<!-- 文字 -->
+        <div style="margin-top: 30px; text-align: center;">
+            <p>“.......”</p>
+            <p>“冲冲冲！”</p>
+            <br>
+            <p>00后</p>
+            <p>终于写完了！！</p>
+        </div>
+    </div>
+    </div>
+<!-- 右边个人标签以及爱好部分 -->
+    <div class="right-about">
+        <div class="text">
+            关于我:
+        </div>
+        <div class="name">
+            <div class="name1">
+                含時
+            </div>
+        </div>
+        <div class="pic">
+            <img src="images/backimg1.jpg">
+        </div>
+<!-- 兴趣爱好，由semantic UI 框架搭建 -->
+        <div class="interested">  
+            <div class="ui attached segment a2" >
+                <div class="ui blue basic left pointing label">编程</div>
+                <div class="ui orange basic left pointing label">游戏</div>
+                <div class="ui yellow basic left pointing label">思考</div>
+                <div class="ui black basic left pointing label">.....</div>
+            </div>
+        </div>
+    </div>
+<!-- 个人标签，semantic UI框架 -->
+    <div class="biaoqian">
+        <div class="ui secondary segment">
+            <div class="ui two column grid">
+                <div class="column">
+                <i class="tags icon"></i>标签
+                </div>
+            </div>
+            <div class="ui black segment" >
+                <div class="ui violet labels">
+                    <a href="#"  target="_blank" class="ui label">
+                        <i class="tags icon"></i>
+                        <span>java</span> 
+                    </a>
+                    <a class="ui  label">
+                        <i class="tags icon"></i>
+                        美女
+                      </a>
+                      <a class="ui label">
+                        <i class="tags icon"></i>
+                        学霸
+                      </a>
+                      <a class="ui label">
+                        <i class="tags icon"></i>
+                        帅哥
+                      </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 底部 -->
+    <footer class="footer" >
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>这是我的个人博客、记录学习进度和关于编程、写作、思考相关的任何内容...</p>
+        <p>人生的道路不会一帆风顺，事业的征途也充满崎岖艰险，只有奋斗，只有拼搏，才会达到成功的彼岸。</p>
+        <p>“冲冲冲！”</p>
+        <br>
+    </footer>
+  </div>
+</body>
+</html>
